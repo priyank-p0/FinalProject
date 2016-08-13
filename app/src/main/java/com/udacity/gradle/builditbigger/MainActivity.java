@@ -39,14 +39,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void tellJoke(View view){
-        Generatejoke generatejoke=new Generatejoke();
-        String joke=generatejoke.getJoke();
-        Intent intent=new Intent(this,DisplayActivity.class);
-        intent.putExtra("joke",joke);
-        startActivity(intent);
-
-    }
+  
 
 
 }
