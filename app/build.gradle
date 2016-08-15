@@ -60,23 +60,5 @@ dependencies {
 dependencies {
     compile project(path: ':appbackend', configuration: 'android-endpoints')
 }
-dependencies {
-    compile 'com.google.android.gms:play-services-auth:9.2.1'
-}
-dependencies {
-    compile 'com.google.android.gms:play-services-gcm:9.2.1'
-}
-dependencies {
-    compile 'com.google.android.gms:play-services-auth:9.2.1'
-}
-dependencies {
-    compile 'com.google.android.gms:play-services-gcm:9.2.1'
-}
-dependencies {
-    compile 'com.google.android.gms:play-services-auth:9.2.1'
-}
-dependencies {
-    compile 'com.google.android.gms:play-services-gcm:9.2.1'
-}
 
 apply plugin: 'build-announcements'
