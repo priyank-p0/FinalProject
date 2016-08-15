@@ -24,13 +24,12 @@ import javax.inject.Named;
   )
 )
 public class MyEndpoint {
-    Generatejoke generatejoke=new Generatejoke();
 
     /** A simple endpoint method that takes a name and says Hi back */
-    @ApiMethod(name = "sayHi")
-    public MyBean sayHi() {
+    @ApiMethod(name = "tellJoke")
+    public MyBean tellJoke() {
         MyBean response = new MyBean();
-        //Joker joker = new Joker();
+        Generatejoke generatejoke=new Generatejoke();
 
         response.setData(generatejoke.getJoke());
         return response;
